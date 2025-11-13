@@ -3,13 +3,13 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: 'zh-CN',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
-
+  title: '魔兽世界灯塔',
+  description: '点亮迷雾中的灯塔，为你指引艾泽拉斯的征途。',
+  //head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: './images/wow.svg',
 
     navbar: ['/', '/get-started'],
   }),
