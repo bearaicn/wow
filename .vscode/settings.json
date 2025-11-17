@@ -1,0 +1,5 @@
+{
+  "pasteImage.basePath": "${projectRoot}",
+  "pasteImage.path": "${projectRoot}/docs/.vuepress/public/images/docs",
+  "pasteImage.insertPattern": "${imageSyntaxPrefix}/images/docs/${imageFileName}${imageSyntaxSuffix}"
+}

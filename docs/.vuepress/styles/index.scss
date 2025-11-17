@@ -1,0 +1,26 @@
+.vp-comment {
+  padding: 0rem 0rem;
+}
+html[data-theme=dark] {
+  .atk-main-editor {
+    background: var(--vp-sidebar-c-bg);
+    border: 1px solid var(--vp-c-border);
+  }
+  .artalk, .atk-layer-wrap {
+    color:  var(--vp-c-text);
+  }
+  .atk-main-editor>.atk-textarea-wrap>.atk-textarea {
+    color: var(--vp-c-text);
+    background-color: var(--vp-sidebar-c-bg);
+  }
+
+  .atk-main-editor>.atk-bottom .atk-send-btn {
+    background-color: var(--vp-c-accent-bg);
+  }
+  .atk-error-layer {
+    background-color: var(--vp-sidebar-c-bg);
+    .atk-error-text * {
+      color: var(--vp-c-text);
+    }
+  }
+}
