@@ -46,7 +46,7 @@ export default defineUserConfig({
             children: [
               { 
                 text: '感恩节', 
-                link: '/tasks/感恩节/感恩节' 
+                link: '/tasks/节日活动/感恩节' 
               }
             ]
           },
